@@ -7,7 +7,6 @@ import skill_tree from "../thumbnail_images/skill_tree1.jpg";
 import { Link } from "react-router-dom";
 
 const linkStyle = {
-  margin: "1rem",
   textDecoration: "none",
   color: "black",
   focus: "none",
@@ -21,27 +20,28 @@ const Thumbnails = () => {
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
           <div class="col">
             <div class="card shadow-sm">
-              <div
-                style={{
-                  backgroundImage: `url(${tanjiro_smile})`,
-                  backgroundPosition: "center",
-                  backgroundSize: "cover",
-                  height: "225px",
-                  width: "100%",
-                }}
-              >
-                <text
+              <Link to="/AboutMe" style={linkStyle}>
+                <div
                   style={{
-                    position: "relative",
-                    bottom: "50px",
-                    fontSize: "28px",
+                    backgroundImage: `url(${tanjiro_smile})`,
+                    backgroundPosition: "center",
+                    backgroundSize: "cover",
+                    height: "225px",
+                    width: "100%",
                   }}
                 >
-                  <Link to="/AboutMe" style={{ linkStyle }}>
+                  <text
+                    style={{
+                      position: "relative",
+                      bottom: "50px",
+                      fontSize: "28px",
+                    }}
+                  >
                     <b>About Me</b>
-                  </Link>
-                </text>
-              </div>
+                  </text>
+                </div>
+              </Link>
+
               <div class="card-body">
                 <p class="card-text">Interests, hobbies, and philosophies</p>
                 <div class="d-flex justify-content-between align-items-center"></div>
@@ -50,27 +50,28 @@ const Thumbnails = () => {
           </div>
           <div class="col">
             <div class="card shadow-sm">
-              <div
-                style={{
-                  backgroundImage: `url(${one_piece_map})`,
-                  backgroundPosition: "center",
-                  backgroundSize: "cover",
-                  height: "225px",
-                  width: "100%",
-                }}
-              >
-                <text
+              <Link to="/CareerJourney" style={linkStyle}>
+                <div
                   style={{
-                    position: "relative",
-                    bottom: "50px",
-                    fontSize: "28px",
+                    backgroundImage: `url(${one_piece_map})`,
+                    backgroundPosition: "center",
+                    backgroundSize: "cover",
+                    height: "225px",
+                    width: "100%",
                   }}
                 >
-                  <Link to="/CareerJourney" style={{ linkStyle }}>
+                  <text
+                    style={{
+                      position: "relative",
+                      bottom: "50px",
+                      fontSize: "28px",
+                    }}
+                  >
                     <b>Career Journey</b>
-                  </Link>
-                </text>
-              </div>
+                  </text>
+                </div>
+              </Link>
+
               <div class="card-body">
                 <p class="card-text">Where I've been and What I did</p>
                 <div class="d-flex justify-content-between align-items-center"></div>
@@ -79,27 +80,27 @@ const Thumbnails = () => {
           </div>
           <div class="col">
             <div class="card shadow-sm">
-              <div
-                style={{
-                  backgroundImage: `url(${ua_school})`,
-                  backgroundPosition: "center",
-                  backgroundSize: "cover",
-                  height: "225px",
-                  width: "100%",
-                }}
-              >
-                <text
+              <Link to="/Education" style={linkStyle}>
+                <div
                   style={{
-                    position: "relative",
-                    bottom: "50px",
-                    fontSize: "28px",
+                    backgroundImage: `url(${ua_school})`,
+                    backgroundPosition: "center",
+                    backgroundSize: "cover",
+                    height: "225px",
+                    width: "100%",
                   }}
                 >
-                  <Link to="/Education" style={{ linkStyle }}>
+                  <text
+                    style={{
+                      position: "relative",
+                      bottom: "50px",
+                      fontSize: "28px",
+                    }}
+                  >
                     <b>Education</b>
-                  </Link>
-                </text>
-              </div>
+                  </text>
+                </div>
+              </Link>
               <div class="card-body">
                 <p class="card-text">Where I studied and what I learned</p>
                 <div class="d-flex justify-content-between align-items-center"></div>
@@ -109,28 +110,32 @@ const Thumbnails = () => {
 
           <div class="col">
             <div>
-              <text
-                style={{
-                  position: "relative",
-                  bottom: "15px",
-                  fontSize: "28px",
-                }}
-              >
-                <Link to="/Skills" style={{ linkStyle }}>
-                  <b>Skills</b>
-                </Link>
-              </text>
+              <br></br>
+              <br></br>
             </div>
             <div class="card shadow-sm">
-              <div
-                style={{
-                  backgroundImage: `url(${skill_tree})`,
-                  backgroundPosition: "center",
-                  backgroundSize: "cover",
-                  height: "225px",
-                  width: "100%",
-                }}
-              ></div>
+              <Link to="/Skills" style={linkStyle}>
+                <div
+                  style={{
+                    backgroundImage: `url(${skill_tree})`,
+                    backgroundPosition: "center",
+                    backgroundSize: "cover",
+                    height: "225px",
+                    width: "100%",
+                  }}
+                >
+                  <text
+                    style={{
+                      position: "relative",
+                      bottom: "50px",
+                      fontSize: "28px",
+                    }}
+                  >
+                    <b>Skills</b>
+                  </text>
+                </div>
+              </Link>
+
               <div class="card-body">
                 <p class="card-text">What I'm good at</p>
                 <div class="d-flex justify-content-between align-items-center"></div>
@@ -139,31 +144,35 @@ const Thumbnails = () => {
           </div>
           <div class="col">
             <div>
-              <text
-                style={{
-                  position: "relative",
-                  bottom: "15px",
-                  fontSize: "28px",
-                }}
-              >
-                <Link to="/Mentors" style={{ linkStyle }}>
-                  <b>Mentors</b>
-                </Link>
-              </text>
+              <br></br>
+              <br></br>
             </div>
             <div class="card shadow-sm">
-              <div
-                style={{
-                  backgroundImage: `url(${kakashi})`,
-                  backgroundPosition: "center",
-                  backgroundSize: "cover",
-                  height: "225px",
-                  width: "100%",
-                }}
-              ></div>
+              <Link to="/Mentors" style={linkStyle}>
+                <div
+                  style={{
+                    backgroundImage: `url(${kakashi})`,
+                    backgroundPosition: "center",
+                    backgroundSize: "cover",
+                    height: "225px",
+                    width: "100%",
+                  }}
+                >
+                  <text
+                    style={{
+                      position: "relative",
+                      bottom: "50px",
+                      fontSize: "28px",
+                    }}
+                  >
+                    <b>Mentors</b>
+                  </text>
+                </div>
+              </Link>
+
               <div class="card-body">
                 <p class="card-text">
-                  Astounding people who made an impact on my life
+                  Astounding people who made an impact in my life
                 </p>
                 <div class="d-flex justify-content-between align-items-center"></div>
               </div>
@@ -171,28 +180,32 @@ const Thumbnails = () => {
           </div>
           <div class="col">
             <div>
-              <text
-                style={{
-                  position: "relative",
-                  bottom: "15px",
-                  fontSize: "28px",
-                }}
-              >
-                <Link to="/Contact" style={{ linkStyle }}>
-                  <b>Contact Me</b>
-                </Link>
-              </text>
+              <br></br>
+              <br></br>
             </div>
             <div class="card shadow-sm">
-              <div
-                style={{
-                  backgroundImage: `url(${anime_pc})`,
-                  backgroundPosition: "center",
-                  backgroundSize: "cover",
-                  height: "225px",
-                  width: "100%",
-                }}
-              ></div>
+              <Link to="/Contact" style={linkStyle}>
+                <div
+                  style={{
+                    backgroundImage: `url(${anime_pc})`,
+                    backgroundPosition: "center",
+                    backgroundSize: "cover",
+                    height: "225px",
+                    width: "100%",
+                  }}
+                >
+                  <text
+                    style={{
+                      position: "relative",
+                      bottom: "50px",
+                      fontSize: "28px",
+                    }}
+                  >
+                    <b>Contact Me</b>
+                  </text>
+                </div>
+              </Link>
+
               <div class="card-body">
                 <p class="card-text">Click for related contact information</p>
                 <div class="d-flex justify-content-between align-items-center"></div>
