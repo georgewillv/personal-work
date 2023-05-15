@@ -8,6 +8,10 @@ const Footer = ({ Name }) => (
       <p class="mb-1">
         Copyright &copy; {new Date().getFullYear()} {Name}. All Rights Reserved.
       </p>
+      <p>
+        This website was made using bootstrap, react and react router. It is
+        deployed on Cloud Provider.
+      </p>
     </div>
   </footer>
 );
