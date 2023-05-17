@@ -1,6 +1,13 @@
+/*
+baby blue #92badd
+dark blue #1b1d2d
+blue blue #2760c3
+white 
+*/
+
 .timeline {
   position: relative;
-  background: #272e48;
+  background: #34403a;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
@@ -30,7 +37,7 @@
   top: 15px;
   text-align: right;
   margin-right: 20px;
-  color: #bcd0f7;
+  color: #ffffff;
   font-size: 1.5rem;
 }
 .timeline-row .timeline-time small {
@@ -40,7 +47,7 @@
 .timeline-row .timeline-content {
   position: relative;
   padding: 20px 30px;
-  background: #1a233a;
+  background: #285238;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
@@ -92,7 +99,7 @@
   -webkit-border-radius: 100px;
   -moz-border-radius: 100px;
   border-radius: 100px;
-  background: #746faf;
+  background: #138a36;
   margin-bottom: 10px;
   display: inline-block;
 }
@@ -187,5 +194,65 @@
   }
   .timeline .timeline-row:nth-child(even) .timeline-content:after {
     display: none;
+  }
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.aboutMeCard {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.page-section-header {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+  width: "100%";
+}
+
+.page-section-Container {
+  padding: 0 16px;
+}
+
+.page-section-Container::after,
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: rgb(0, 0, 0);
+}
+
+.cardLists {
+  text-align: left;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
   }
 }
