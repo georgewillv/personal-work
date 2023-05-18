@@ -1,5 +1,6 @@
 import "../../../src/styles.css";
 import alteryx from "../../thumbnail_images/alteryx.png";
+import optum from "../../thumbnail_images/Optum-Logo-2011.png";
 
 const CareerJourney = () => {
   return (
@@ -23,13 +24,15 @@ const CareerJourney = () => {
                 Learned significant knowledge on Data Science and Machine
                 Learning as an AI & ML Intern.
               </p>
-              {/* <div class="thumbs">
-                <img
-                  class="img-fluid rounded"
-                  src="https://bootdey.com/img/Content/avatar/avatar1.png"
-                  alt="Maxwell Admin"
-                ></img>
-              </div> */}
+              <div class="thumbs">
+                <div class="thumbs">
+                  <img
+                    class="img-fluid rounded"
+                    src={optum}
+                    alt="Optum Logo"
+                  ></img>
+                </div>
+              </div>
               <div class="">
                 <span class="badge badge-pill">Python</span>
                 <span class="badge badge-pill">numpy</span>
@@ -54,15 +57,15 @@ const CareerJourney = () => {
                   here
                 </a>
               </p>
-              {/* <div class="thumbs">
+              <div class="thumbs">
                 <div class="thumbs">
                   <img
                     class="img-fluid rounded"
-                    src="https://bootdey.com/img/Content/avatar/avatar1.png"
-                    alt="Maxwell Admin"
+                    src={optum}
+                    alt="Optum Logo"
                   ></img>
                 </div>
-              </div> */}
+              </div>
               <div class="">
                 <span class="badge badge-pill">TigerGraph</span>
                 <span class="badge badge-pill">AI</span>

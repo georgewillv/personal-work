@@ -256,3 +256,37 @@ html {
     display: block;
   }
 }
+
+.education-images img {
+  width: 550px;
+  height: auto;
+  object-fit: cover;
+}
+
+.college-achievements p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 85px;
+  margin: auto;
+  text-align: center;
+}
+
+.college-achievements img {
+  width: 100px;
+}
+
+.skills-rating-content-section {
+  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-left: 425px;
+  width: 100%;
+  height: auto;
+}
+
+.skills-rating-content-section img {
+  height: auto;
+  object-fit: cover;
+}
