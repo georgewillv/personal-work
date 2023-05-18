@@ -290,3 +290,13 @@ html {
   height: auto;
   object-fit: cover;
 }
+
+.education-content-container {
+  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 100%;
+  height: auto;
+  padding-left: 250px;
+  padding-right: 250px;
+}

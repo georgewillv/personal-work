@@ -9,8 +9,8 @@ const Footer = ({ Name }) => (
         Copyright &copy; {new Date().getFullYear()} {Name}. All Rights Reserved.
       </p>
       <p>
-        This website was made using bootstrap, react and react router. It is
-        deployed on Cloud Provider.
+        This website was made using Bootstrap, React, React Router and some MUI
+        components. It is deployed on Cloud Provider.
       </p>
     </div>
   </footer>

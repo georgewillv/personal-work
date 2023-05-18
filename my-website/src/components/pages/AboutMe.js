@@ -1,23 +1,10 @@
-// import {
-//   faTwitter,
-//   faGithub,
-//   faLinkedin,
-//   faInstagram,
-// } from "@fortawesome/free-brands-svg-icons";
+import Intro from "../Intro.js";
+import Data from "../../constants.js";
 
 const AboutMe = () => {
   return (
     <div className="page-section-Container">
-      <div className="page-section-header">
-        <h1>About Me </h1>
-        <p>
-          {" "}
-          Anime, Gaming, Heavy Metal, and Gym loving Developer who specializes
-          in Python backend and React frontend technologies
-        </p>
-        <p></p>
-      </div>
-
+      <Intro Name={"About Me"} Description={Data.Description}></Intro>
       <h2 style={{ textAlign: "center" }}></h2>
       <div className="row">
         <div className="column">

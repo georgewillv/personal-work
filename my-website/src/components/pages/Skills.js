@@ -1,14 +1,15 @@
 import skills_cloud from "../../thumbnail_images/skills-cloud.svg";
 import Rating from "@mui/material/Rating";
 import Typography from "@mui/material/Typography";
+import Intro from "../Intro.js";
+
 const Skills = () => {
   return (
     <div className="page-section-Container">
-      <div className="page-section-header">
-        <h1>Skills</h1>
-        <p> Where I've invested my experience</p>
-        <p></p>
-      </div>
+      <Intro
+        Name={"Skills"}
+        Description={"Where I've spent my experience"}
+      ></Intro>
       <div className="skills-rating-content-section">
         <div className="ratings">
           <div>

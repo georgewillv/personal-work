@@ -2,16 +2,17 @@ import "../../../src/styles.css";
 import alteryx from "../../thumbnail_images/alteryx.png";
 import optum from "../../thumbnail_images/Optum-Logo-2011.png";
 
+import Intro from "../Intro.js";
+
 const CareerJourney = () => {
   return (
     <div className="page-section-Container">
-      <div className="page-section-header">
-        <h1>Career Journey</h1>
-        <p>
-          Timeline of which companies I've worked at and other notable
-          achievements
-        </p>
-      </div>
+      <Intro
+        Name={"Career Journey"}
+        Description={
+          "Timeline of which companies I've worked at and other notable achievements"
+        }
+      ></Intro>
       <div class="container">
         <div class="timeline">
           <div class="timeline-row">
