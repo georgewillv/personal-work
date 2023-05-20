@@ -18,7 +18,7 @@ const Contact = () => {
       <p>
         Please reach out via{" "}
         <a href="https://www.linkedin.com/in/georgewillv/">LinkedIn</a>. I will
-        not disclose my personal contact information here due to potential spam{" "}
+        not disclose my personal contact information here due to potential spam.{" "}
       </p>
     </div>
   );
