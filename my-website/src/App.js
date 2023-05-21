@@ -17,12 +17,6 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 function App() {
   return (
-    // <NavBar>
-
-    // </NavBar>
-
-    //Timeline of Career Journey
-
     <div className="App">
       <BrowserRouter>
         <Header dark={true}>{Data.Name}</Header>

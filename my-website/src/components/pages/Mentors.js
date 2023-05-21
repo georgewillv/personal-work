@@ -12,7 +12,6 @@ const linkStyle = {
 const Mentors = () => {
   return (
     <div className="page-section-Container">
-      {/* // <div class="album py-5 bg-body-tertiary"> */}
       <Intro
         Name={"Mentors"}
         Description={
@@ -23,7 +22,6 @@ const Mentors = () => {
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
           <div class="col">
             <div class="card shadow-sm">
-              {/* <Link to="/AboutMe" style={linkStyle}> */}
               <div
                 style={{
                   backgroundImage: `url(${versaggi})`,
@@ -43,7 +41,6 @@ const Mentors = () => {
                   Matthew Versaggi
                 </text>
               </div>
-              {/* </Link> */}
 
               <div class="card-body">
                 <p class="card-text">
@@ -59,7 +56,6 @@ const Mentors = () => {
           </div>
           <div class="col">
             <div class="card shadow-sm">
-              {/* <Link to="/CareerJourney" style={linkStyle}> */}
               <div
                 style={{
                   backgroundImage: `url(${jeff})`,
@@ -80,7 +76,6 @@ const Mentors = () => {
                   Jeff Arnold
                 </text>
               </div>
-              {/* </Link> */}
 
               <div class="card-body">
                 <p class="card-text">
@@ -98,7 +93,6 @@ const Mentors = () => {
           </div>
           <div class="col">
             <div class="card shadow-sm">
-              {/* <Link to="/Education" style={linkStyle}> */}
               <div
                 style={{
                   backgroundImage: `url(${dakota})`,
@@ -118,7 +112,6 @@ const Mentors = () => {
                   Dakota O'Dell
                 </text>
               </div>
-              {/* </Link> */}
               <div class="card-body">
                 <p class="card-text">
                   <a href="https://www.linkedin.com/in/dakotaodell/">Dakota</a>{" "}

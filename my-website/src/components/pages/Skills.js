@@ -22,10 +22,6 @@ const Skills = () => {
             ></Rating>
           </div>
           <div>
-            <Typography component="legend">Software Engineering</Typography>
-            <Rating name="swe-rating" value={4} readOnly></Rating>
-          </div>
-          <div>
             <Typography component="legend">Web Dev</Typography>
             <Rating
               name="web-rating"
@@ -33,6 +29,10 @@ const Skills = () => {
               readOnly
               precision={0.5}
             ></Rating>
+          </div>
+          <div>
+            <Typography component="legend">Software Engineering</Typography>
+            <Rating name="swe-rating" value={4} readOnly></Rating>
           </div>
           <div>
             <Typography component="legend">React</Typography>
