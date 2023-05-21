@@ -1,7 +1,7 @@
 import Intro from "../Intro.js";
 import versaggi from "../../thumbnail_images/profversaggi_avatar-normal.png";
 import jeff from "../../thumbnail_images/jeff.jpg";
-import { Link } from "react-router-dom";
+import dakota from "../../thumbnail_images/dakota_anime.jpg";
 
 const linkStyle = {
   textDecoration: "none",
@@ -47,8 +47,9 @@ const Mentors = () => {
 
               <div class="card-body">
                 <p class="card-text">
-                  Matt was instrumental in educating me in wide aspects of life;
-                  from attitude, fitness, and general wellbeing to all things
+                  <a href="http://www.matt-versaggi.com/resume/">Matt</a> was
+                  instrumental in educating me in wide aspects of life; from
+                  attitude, fitness, and general wellbeing to all things
                   technology, Matt has remained a huge influence to me and many
                   others.
                 </p>
@@ -83,8 +84,11 @@ const Mentors = () => {
 
               <div class="card-body">
                 <p class="card-text">
-                  Jeff was my boss as an intern. Once I was a fulltime employee
-                  he'd always encourage me to foster new ideas. He is always
+                  <a href="https://www.linkedin.com/in/jeff-arnold-a0720ba/">
+                    Jeff
+                  </a>{" "}
+                  was my boss as an intern. Once I was a fulltime employee he'd
+                  always encourage me to foster new ideas. He is always
                   concerned about others and brings happiness into any room he's
                   in.
                 </p>
@@ -97,7 +101,7 @@ const Mentors = () => {
               {/* <Link to="/Education" style={linkStyle}> */}
               <div
                 style={{
-                  backgroundImage: `url(${"test"})`,
+                  backgroundImage: `url(${dakota})`,
                   backgroundPosition: "center",
                   backgroundSize: "cover",
                   height: "225px",
@@ -117,9 +121,10 @@ const Mentors = () => {
               {/* </Link> */}
               <div class="card-body">
                 <p class="card-text">
-                  Dakota was my lead engineer and would always explain things
-                  with patience, intelligence and kindness. He is what
-                  developers should strive to become
+                  <a href="https://www.linkedin.com/in/dakotaodell/">Dakota</a>{" "}
+                  was my lead engineer and would always explain things with
+                  patience, intelligence and kindness. He is what developers
+                  should strive to become
                 </p>
                 <div class="d-flex justify-content-between align-items-center"></div>
               </div>

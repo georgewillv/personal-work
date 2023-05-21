@@ -10,7 +10,7 @@ const Footer = ({ Name }) => (
       </p>
       <p>
         This website was made using Bootstrap, React, React Router and some MUI
-        components. It is deployed on Cloud Provider.
+        components. It is deployed on AWS.
       </p>
     </div>
   </footer>

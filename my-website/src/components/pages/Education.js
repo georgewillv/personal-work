@@ -29,7 +29,7 @@ const Education = () => {
         <br></br>
         <br></br>
         <div className="other-achievements">
-          <h3>Other Notable Achievements:</h3>
+          <h3>Other Involvements:</h3>
           <div className="college-achievements">
             <h4>Recording Secretary of Phi Gamma Delta Mu Sigma Chapter</h4>
             <img src={fiji} alt="fiji"></img>
