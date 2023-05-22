@@ -1,5 +1,5 @@
 import "../../../src/styles.css";
-import uofm from "../../thumbnail_images/UofM.png";
+// import uofm from "../../thumbnail_images/UofM.png";
 import diploma from "../../thumbnail_images/diploma.jpg";
 import fiji from "../../thumbnail_images/Phi_Gamma_Delta_Crest.png";
 

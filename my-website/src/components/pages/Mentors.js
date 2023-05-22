@@ -3,12 +3,6 @@ import versaggi from "../../thumbnail_images/profversaggi_avatar-normal.png";
 import jeff from "../../thumbnail_images/jeff.jpg";
 import dakota from "../../thumbnail_images/dakota_anime.jpg";
 
-const linkStyle = {
-  textDecoration: "none",
-  color: "black",
-  focus: "none",
-  visited: "none",
-};
 const Mentors = () => {
   return (
     <div className="page-section-Container">

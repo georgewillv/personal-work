@@ -87,11 +87,7 @@ const CareerJourney = () => {
                 desktop
               </p>
               <div class="thumbs">
-                <img
-                  class="img-fluid rounded"
-                  src={alteryx}
-                  alt="Alteryx image"
-                ></img>
+                <img class="img-fluid rounded" src={alteryx} alt="ayx"></img>
               </div>
               <div>
                 <span class="badge badge-pill">Python</span>
@@ -109,11 +105,7 @@ const CareerJourney = () => {
             <div class="timeline-content">
               <h4>Associate Data Scientist</h4>
               <div class="thumbs">
-                <img
-                  class="img-fluid rounded"
-                  src={alteryx}
-                  alt="Alteryx image"
-                ></img>
+                <img class="img-fluid rounded" src={alteryx} alt="ayx"></img>
               </div>
               <div>
                 <span class="badge badge-pill">Data Analysis</span>
@@ -137,11 +129,7 @@ const CareerJourney = () => {
                 science functionality
               </p>
               <div class="thumbs">
-                <img
-                  class="img-fluid rounded"
-                  src={alteryx}
-                  alt="Alteryx image"
-                ></img>
+                <img class="img-fluid rounded" src={alteryx} alt="ayx"></img>
               </div>
               <div>
                 <span class="badge badge-pill">Software Engineering</span>
@@ -164,11 +152,7 @@ const CareerJourney = () => {
                 experimental cloud product
               </p>
               <div class="thumbs">
-                <img
-                  class="img-fluid rounded"
-                  src={alteryx}
-                  alt="Alteryx image"
-                ></img>
+                <img class="img-fluid rounded" src={alteryx} alt="ayx"></img>
               </div>
               <div class="">
                 <span class="badge badge-pill">Docker</span>
