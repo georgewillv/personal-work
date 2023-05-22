@@ -3,6 +3,6 @@ import App from "./App";
 
 test("renders learn react link", () => {
   render(<App />);
-  const linkElement = screen.getByText(/CareerJourney/i);
-  expect(linkElement).toBeInTheDocument();
+  const imgElement = screen.getByAltText("ResumeNavBarImage");
+  expect(imgElement).toBeInTheDocument();
 });

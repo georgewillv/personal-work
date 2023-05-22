@@ -22,7 +22,7 @@ function App() {
         <Header dark={true}>{Data.Name}</Header>
         <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path="/Home" element={<HomePage />} />
+          {/* <Route path="/Home" element={<HomePage />} /> */}
           <Route path="/AboutMe" element={<AboutMe />} />
           <Route path="/CareerJourney" element={<CareerJourney />} />
           <Route path="/Education" element={<Education />} />
