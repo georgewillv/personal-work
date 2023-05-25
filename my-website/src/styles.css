@@ -1,10 +1,3 @@
-/*
-baby blue #92badd
-dark blue #1b1d2d
-blue blue #2760c3
-white 
-*/
-
 .timeline {
   position: relative;
   background: #34403a;
@@ -257,46 +250,48 @@ html {
   }
 }
 
-.education-images img {
-  width: 550px;
-  height: auto;
-  object-fit: cover;
-}
+@media screen and (max-width: 650px) {
+  .education-images img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
 
-.college-achievements p {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 500px;
-  height: 85px;
-  margin: auto;
-  text-align: center;
-}
+  .college-achievements p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 85px;
+    margin: auto;
+    text-align: center;
+  }
 
-.college-achievements img {
-  width: 100px;
-}
+  .college-achievements img {
+    width: 100%;
+  }
 
-.skills-rating-content-section {
-  align-items: center;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  padding-left: 425px;
-  width: 100%;
-  height: auto;
-}
+  .skills-rating-content-section {
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* padding-left: 425px; */
+    width: 100%;
+    height: auto;
+  }
 
-.skills-rating-content-section img {
-  height: auto;
-  object-fit: cover;
-}
+  .skills-rating-content-section img {
+    height: auto;
+    object-fit: cover;
+  }
 
-.education-content-container {
-  align-items: center;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  width: 100%;
-  height: auto;
-  padding-left: 250px;
-  padding-right: 250px;
+  .education-content-container {
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    height: auto;
+    padding-left: 250px;
+    padding-right: 250px;
+  }
 }

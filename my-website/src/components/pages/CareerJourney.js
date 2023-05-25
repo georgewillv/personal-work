@@ -143,7 +143,7 @@ const CareerJourney = () => {
 
           <div class="timeline-row">
             <div class="timeline-time">
-              March 2022 - May 2023<small>Alteryx</small>
+              March 2023 - May 2023<small>Alteryx</small>
             </div>
             <div class="timeline-content">
               <h4>Software Engineer II </h4>

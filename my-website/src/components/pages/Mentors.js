@@ -1,7 +1,7 @@
 import Intro from "../Intro.js";
 import versaggi from "../../thumbnail_images/profversaggi_avatar-normal.png";
 import jeff from "../../thumbnail_images/jeff.jpg";
-import dakota from "../../thumbnail_images/dakota_anime.jpg";
+import dakota from "../../thumbnail_images/dakota.jpg";
 
 const Mentors = () => {
   return (
@@ -90,6 +90,7 @@ const Mentors = () => {
               <div
                 style={{
                   backgroundImage: `url(${dakota})`,
+                  backgroundPositionY: "0px",
                   backgroundPosition: "center",
                   backgroundSize: "cover",
                   height: "225px",
