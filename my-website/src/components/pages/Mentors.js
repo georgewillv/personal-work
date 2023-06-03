@@ -1,7 +1,7 @@
 import Intro from "../Intro.js";
 import versaggi from "../../thumbnail_images/profversaggi_avatar-normal.png";
 import jeff from "../../thumbnail_images/jeff.jpg";
-import dakota from "../../thumbnail_images/dakota.jpg";
+import dakota from "../../thumbnail_images/dakota1.jpg";
 
 const Mentors = () => {
   return (
