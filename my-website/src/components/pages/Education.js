@@ -35,17 +35,17 @@ const Education = () => {
             <img src={fiji} alt="fiji"></img>
             <p>
               Responsible for disciplinary action and communication delivery of
-              90 active members
+              90 active members.
             </p>
             <p>
               Worked on incorporating realistic Academic Goal Setting and Time
-              Management Skills into the pledging process
+              Management Skills into the pledging process.
             </p>
             <p>
               Established philanthropic tradition of the “Phi Gamma Delta Casino
               Night” where students, friends, and families can come and play
               casino games at McNamara Alumni Center in support of cancer
-              research
+              research.
             </p>
           </div>
         </div>

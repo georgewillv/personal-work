@@ -45,7 +45,7 @@ const AboutMe = () => {
                     </p>
                     <li>
                       I've worked many odd jobs before obtaining my degree.
-                      These jobs include, working at Target, goodwill, a pizza
+                      These jobs include, working at Target, Goodwill, a pizza
                       joint, and a tech help center.
                     </li>
                     <li>
@@ -55,7 +55,7 @@ const AboutMe = () => {
                     </li>
                     <li>
                       I spent a long time in college and am very thankful for
-                      it. While I learned a lot via coursework I learned even
+                      it. While I learned a lot via coursework, I learned even
                       more about how the world works.
                     </li>
                     <li>
@@ -66,7 +66,8 @@ const AboutMe = () => {
                     </li>
                     <li>
                       I love building computers. My current rig is a 3800XT +
-                      FTW3 3070Ti in a humble case.
+                      FTW3 3070Ti in a humble case. I've built around 10
+                      machines for various individuals.
                     </li>
                   </ul>
                 </p>
@@ -101,23 +102,22 @@ const AboutMe = () => {
                 <p class="card-text">
                   <ul className="cardLists">
                     <li>
-                      Its important to remember to keep our childhood
+                      It is important to remember to keep our childhood
                       imagination. This allows us to be creative, innovative and
-                      more accepting of others. Watching anime allows me to
-                      foster this
+                      more accepting of others; watching anime allows me to
+                      foster this.
                     </li>
                     <li>
                       {" "}
                       I listen to metal music, specifically Metalcore, but I
-                      enjoy all flavors from hard rock to djent
+                      enjoy all flavors from hard rock to djent.
                     </li>
                     <li>
-                      I try my best to stay in shape. The way I accomplish this
-                      is by weightlifting. My current lifts are: 195 bench, 275
-                      squat, 375 deadlift
+                      I try my best to stay in shape through weightlifting. My
+                      current lifts are: 195 bench, 275 squat, 375 deadlift.
                     </li>
                     <li>
-                      I grew up playing xbox and ever since Halo 2 and COD4 I
+                      I grew up playing Xbox and ever since Halo 2 and COD4, I
                       have remained an avid gamer. I like to play story driven
                       cinematic type games, but consistently play League of
                       Legends. I'm a diamond adc/lee sin player.
@@ -156,7 +156,7 @@ const AboutMe = () => {
                       There is no substitute for hard work. Anything worthwhile
                       in life requires hard work to obtain. If getting or
                       achieving these things were easy, then you were more lucky
-                      than others
+                      than others.
                     </li>
                     <li>
                       On the opposite end, what good are dreams, if all one does
@@ -165,16 +165,16 @@ const AboutMe = () => {
                     </li>
                     <li>
                       Lady Luck absolutely does exist and one should be grateful
-                      when she favors them
+                      when she favors them.
                     </li>
                     <li>
-                      If you dont like the hand that fate's dealt you with,
-                      fight for a new one
+                      If you don't like the hand that fate has dealt you, fight
+                      for a new one.
                     </li>
                     <li>
                       After experiencing the deaths of friends, I've learned to
                       treasure life, because unfortunately it can be taken away
-                      at any time
+                      at any time.
                     </li>
                   </ul>
                 </p>
