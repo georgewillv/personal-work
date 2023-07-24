@@ -27,7 +27,6 @@ const Education = () => {
           </div>
         </div>
         <br></br>
-
         <div className="other-achievements">
           <h3>Other Involvements:</h3>
           <div className="college-achievements">
