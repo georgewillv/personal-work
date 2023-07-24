@@ -251,7 +251,7 @@ html {
 }
 
 .education-images img {
-  width: 550px;
+  max-width: 700px;
   height: auto;
   object-fit: cover;
 }
@@ -267,7 +267,7 @@ html {
 }
 
 .college-achievements img {
-  width: 100px;
+  max-width: 200px;
 }
 
 .skills-rating-content-section {
