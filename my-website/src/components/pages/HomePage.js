@@ -1,10 +1,13 @@
+import { Grid } from "@mui/material";
+import Data from "../../constants.js";
 import Intro from "../Intro.js";
 import Thumbnails from "../Thumbnails.js";
-import Data from "../../constants.js";
 const HomePage = () => (
   <main>
-    <Intro Name={Data.Name} Description={Data.Description} />
-    <Thumbnails />
+    <Grid container spacing={0} justifyItems="center">
+      <Intro Name={Data.Name} Description={Data.Description} />
+      <Thumbnails />
+    </Grid>
   </main>
 );
 

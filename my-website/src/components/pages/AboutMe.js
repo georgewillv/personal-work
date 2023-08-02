@@ -1,9 +1,9 @@
-import Intro from "../Intro.js";
 import Data from "../../constants.js";
+import Intro from "../Intro.js";
 
 import friends from "../../thumbnail_images/friends.jpg";
-import zoro from "../../thumbnail_images/zoro.jpg";
 import thought from "../../thumbnail_images/thoughtful.jpg";
+import zoro from "../../thumbnail_images/zoro.jpg";
 
 const AboutMe = () => {
   return (

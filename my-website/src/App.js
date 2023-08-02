@@ -6,12 +6,12 @@ import Footer from "./components/Footer.js";
 import Data from "./constants.js";
 
 import AboutMe from "./components/pages/AboutMe.js";
-import HomePage from "./components/pages/HomePage.js";
 import CareerJourney from "./components/pages/CareerJourney";
-import Education from "./components/pages/Education";
-import Skills from "./components/pages/Skills";
-import Mentors from "./components/pages/Mentors";
 import Contact from "./components/pages/Contact";
+import Education from "./components/pages/Education";
+import HomePage from "./components/pages/HomePage.js";
+import Mentors from "./components/pages/Mentors";
+import Skills from "./components/pages/Skills";
 
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
@@ -22,13 +22,13 @@ function App() {
         <Header dark={true}>{Data.Name}</Header>
         <Routes>
           <Route path="/" element={<HomePage />} />
-          {/* <Route path="/Home" element={<HomePage />} /> */}
           <Route path="/AboutMe" element={<AboutMe />} />
           <Route path="/CareerJourney" element={<CareerJourney />} />
           <Route path="/Education" element={<Education />} />
           <Route path="/Skills" element={<Skills />} />
           <Route path="/Mentors" element={<Mentors />} />
           <Route path="/Contact" element={<Contact />} />
+          {/* <Route element={<PageNoteFound />} /> */}
         </Routes>
 
         <Footer Name={Data.Name} />

@@ -37,6 +37,15 @@ const Skills = () => {
               ></Rating>
             </Grid>
             <Grid>
+              <Typography component="legend">AI & ML </Typography>
+              <Rating
+                name="windows-rating"
+                value={3.5}
+                precision={0.5}
+                readOnly
+              ></Rating>
+            </Grid>
+            <Grid>
               <Typography component="legend">Software Engineering</Typography>
               <Rating name="swe-rating" value={4} readOnly></Rating>
             </Grid>
@@ -63,7 +72,12 @@ const Skills = () => {
           </div>
         </Grid>
         <Grid item>
-          <img src={skills_cloud} alt="skills-word-cloud"></img>
+          <img
+            src={skills_cloud}
+            alt="skills-word-cloud"
+            width="auto"
+            height="auto"
+          ></img>
         </Grid>
       </Grid>
     </div>
