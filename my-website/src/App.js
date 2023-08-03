@@ -11,6 +11,7 @@ import Contact from "./components/pages/Contact";
 import Education from "./components/pages/Education";
 import HomePage from "./components/pages/HomePage.js";
 import Mentors from "./components/pages/Mentors";
+import PageNotFound from "./components/pages/PageNotFound";
 import Skills from "./components/pages/Skills";
 
 import { BrowserRouter, Route, Routes } from "react-router-dom";
@@ -21,6 +22,7 @@ function App() {
       <BrowserRouter>
         <Header dark={true}>{Data.Name}</Header>
         <Routes>
+          {/* <Route path="/" element={<LandingPage />} /> */}
           <Route path="/" element={<HomePage />} />
           <Route path="/AboutMe" element={<AboutMe />} />
           <Route path="/CareerJourney" element={<CareerJourney />} />
@@ -28,7 +30,7 @@ function App() {
           <Route path="/Skills" element={<Skills />} />
           <Route path="/Mentors" element={<Mentors />} />
           <Route path="/Contact" element={<Contact />} />
-          {/* <Route element={<PageNoteFound />} /> */}
+          <Route path="/*" element={<PageNotFound />} />
         </Routes>
 
         <Footer Name={Data.Name} />

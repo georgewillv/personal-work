@@ -1,57 +1,43 @@
-import { Card, CardContent, CardMedia, Grid, Typography } from "@mui/material";
+import styled from "@emotion/styled/macro";
+import { Card, CardActionArea, CardMedia, Grid } from "@mui/material";
 import { Link } from "react-router-dom";
 
-// const useStyles = makeStyles((theme) => ({
-//   col: {},
-//   card: {
-//     marginBottom: theme.spacing(2),
-//     boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
-//   },
-//   backgroundImage: {
-//     backgroundPosition: "center",
-//     backgroundSize: "cover",
-//     height: "225px",
-//     width: "100%",
-//     position: "relative",
-//     bottom: theme.spacing(6),
-//     display: "flex",
-//     justifyContent: "center",
-//     alignItems: "center",
-//     flexDirection: "column",
-//   },
-//   title: {
-//     fontSize: "28px",
-//     fontWeight: "bold",
-//   },
-//   linkStyle: {
-//     textDecoration: "none",
-//   },
-// }));
+const DisplayOver = styled.div({
+  height: "100%",
+  left: "0",
+  position: "absolute",
+  top: "0",
+  width: "100%",
+  zIndex: 2,
+  transition: "background-color 350ms ease",
+  backgroundColor: "transparent",
+  padding: "20px 20px 0 20px",
+  boxSizing: "border-box",
+});
+
+const BigTitle = styled.h2({
+  fontFamily: "Helvetica",
+  color: "white",
+  transform: "translate3d(0,5px,0)",
+  transition: "transform 350ms ease",
+  textAlign: "start",
+});
+
+const Hover = styled.div({
+  opacity: 0,
+  transition: "opacity 350ms ease",
+});
+
+const SubTitle = styled.h4({
+  fontFamily: "Helvetica",
+  color: "white",
+  transform: "translate3d(0,50px,0)",
+  transition: "transform 350ms ease",
+  textAlign: "start",
+});
 
 export default function ThumbCard(props) {
   const { backgroundUrl, title, subText, link } = props;
-  //   const classes = useStyles();
-  //   return (
-  //     <div class="col">
-  //       <div class="card shadow-sm">
-  //         <Card>
-  //           <Link to={`url(${link}`} style={classes.linkStyle}></Link>
-  //           <Grid
-  //             sx={{
-  //               backgroundImage: `url(${backgroundUrl})`,
-  //             }}
-  //           >
-  //             <Typography variant="h5">{title}</Typography>
-  //           </Grid>
-  //           <div class="card-body">
-  //             <p class="card-text">{subText}</p>
-  //             <div class="d-flex justify-content-between align-items-center"></div>
-  //           </div>
-  //         </Card>
-  //       </div>
-  //     </div>
-  //   );
-
   return (
     <Grid
       container
@@ -62,14 +48,47 @@ export default function ThumbCard(props) {
       justifyContent="space-between"
       justifyItems="space-between"
     >
-      <Typography variant="h5">{title}</Typography>
-      <Card variant="outlined" sx={{ minWidth: "25rem", maxWidth: "25rem" }}>
-        <Link to={link}>
-          <CardMedia component="img" image={backgroundUrl} />
-          <CardContent>
-            <Typography>{subText}</Typography>
-          </CardContent>
-        </Link>
+      <Card
+        variant="outlined"
+        sx={{
+          minWidth: "25rem",
+          maxWidth: "25rem",
+          [`:hover ${BigTitle}`]: {
+            transform: "translate3d(0,0,0)",
+          },
+          [`:hover ${DisplayOver}`]: {
+            backgroundColor: "rgba(0,0,0,.5)",
+          },
+          [`:hover ${SubTitle}`]: {
+            transform: "translate3d(0,0,0)",
+          },
+          [`:hover ${Hover}`]: {
+            opacity: 1,
+          },
+        }}
+      >
+        <CardActionArea>
+          <Link to={link}>
+            <CardMedia
+              component="img"
+              image={backgroundUrl}
+              sx={{
+                minWidth: "15rem",
+                maxWidth: "25rem",
+                objectFit: "cover",
+                height: "383.516px",
+                cursor: "pointer",
+                //weird way to set the height, must revisit
+              }}
+            ></CardMedia>
+            <DisplayOver>
+              <BigTitle>{title}</BigTitle>
+              <Hover>
+                <SubTitle>{subText}</SubTitle>
+              </Hover>
+            </DisplayOver>
+          </Link>
+        </CardActionArea>
       </Card>
     </Grid>
   );

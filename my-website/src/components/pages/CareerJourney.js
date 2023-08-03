@@ -133,6 +133,7 @@ const CareerJourney = () => {
               </div>
               <div>
                 <span class="badge badge-pill">Software Engineering</span>
+                <span class="badge badge-pill">AI/ML</span>
                 <span class="badge badge-pill">Python</span>
                 <span class="badge badge-pill">React</span>
                 <span class="badge badge-pill">Typescript</span>
@@ -149,7 +150,7 @@ const CareerJourney = () => {
               <h4>Software Engineer II </h4>
               <p>
                 All responsibilities of prior role plus began working on an
-                experimental cloud product
+                experimental AI Document processing cloud product
               </p>
               <div class="thumbs">
                 <img class="img-fluid rounded" src={alteryx} alt="ayx"></img>
@@ -160,6 +161,7 @@ const CareerJourney = () => {
                 <span class="badge badge-pill">React</span>
                 <span class="badge badge-pill">Typescript</span>
                 <span class="badge badge-pill">Python</span>
+                <span class="badge badge-pill">AI/ML</span>
               </div>
             </div>
           </div>
