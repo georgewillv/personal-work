@@ -15,12 +15,12 @@ const Header = ({ dark, children }) => {
             />
             {children}
           </a>
-          <Link to="/AboutMe">About Me</Link>
-          <Link to="/CareerJourney">Career</Link>
-          <Link to="/Education">Education</Link>
-          <Link to="/Skills">Skills</Link>
-          <Link to="/Mentors">Mentors</Link>
-          <Link to="/Contact">Contact Me</Link>
+          <Link to="/about_me">About Me</Link>
+          <Link to="/career_journey">Career</Link>
+          <Link to="/education">Education</Link>
+          <Link to="/skills">Skills</Link>
+          <Link to="/mentors">Mentors</Link>
+          <Link to="/contact">Contact Me</Link>
         </div>
       </div>
     </header>

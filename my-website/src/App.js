@@ -14,7 +14,7 @@ import Mentors from "./components/pages/Mentors";
 import PageNotFound from "./components/pages/PageNotFound";
 import Skills from "./components/pages/Skills";
 
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 
 function App() {
   return (
@@ -24,13 +24,14 @@ function App() {
         <Routes>
           {/* <Route path="/" element={<LandingPage />} /> */}
           <Route path="/" element={<HomePage />} />
-          <Route path="/AboutMe" element={<AboutMe />} />
-          <Route path="/CareerJourney" element={<CareerJourney />} />
-          <Route path="/Education" element={<Education />} />
-          <Route path="/Skills" element={<Skills />} />
-          <Route path="/Mentors" element={<Mentors />} />
-          <Route path="/Contact" element={<Contact />} />
-          <Route path="/*" element={<PageNotFound />} />
+          <Route path="/about_me" element={<AboutMe />} />
+          <Route path="/career_journey" element={<CareerJourney />} />
+          <Route path="/education" element={<Education />} />
+          <Route path="/skills" element={<Skills />} />
+          <Route path="/mentors" element={<Mentors />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/page_not_found" element={<PageNotFound />} />
+          <Route path="*" element={<Navigate to="/page_not_found" />} />
         </Routes>
 
         <Footer Name={Data.Name} />

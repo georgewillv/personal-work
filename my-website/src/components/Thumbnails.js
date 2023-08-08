@@ -33,7 +33,7 @@ const Thumbnails = () => {
               backgroundUrl={tanjiro_smile}
               title={"About Me"}
               subText={"Interests Hobbies and Philosophies"}
-              link={"/AboutMe"}
+              link={"/about_me"}
             />
           </Box>
         </Grid>
@@ -43,7 +43,7 @@ const Thumbnails = () => {
               backgroundUrl={one_piece_map}
               title={"Career Journey"}
               subText="Timeline of where I've worked and notable projects"
-              link={"/CareerJourney"}
+              link={"/career_journey"}
             />
           </Box>
         </Grid>
@@ -53,7 +53,7 @@ const Thumbnails = () => {
               backgroundUrl={ua_school}
               title={"Education"}
               subText="Where I studied and what I learned"
-              link={"/Education"}
+              link={"/education"}
             />
           </Box>
         </Grid>
@@ -74,7 +74,7 @@ const Thumbnails = () => {
               backgroundUrl={kakashi}
               title={"Mentors"}
               subText={"Astounding people who made an impact in my life"}
-              link={"/Mentors"}
+              link={"/mentors"}
             />
           </Box>
         </Grid>
@@ -84,7 +84,7 @@ const Thumbnails = () => {
               backgroundUrl={skill_tree}
               title={"Skills"}
               subText="Where I've invested my IRL EXP"
-              link={"/Skills"}
+              link={"/skills"}
             />
           </Box>
         </Grid>
@@ -94,7 +94,7 @@ const Thumbnails = () => {
               backgroundUrl={anime_pc}
               title={"Contact Me"}
               subText="Click for related contact information"
-              link={"/Contact"}
+              link={"/contact"}
             />
           </Box>
         </Grid>
