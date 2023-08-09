@@ -18,6 +18,7 @@ const Skills = () => {
       >
         <Grid item>
           <div className="ratings">
+            <Typography variant="h4">Technical</Typography>
             <Grid>
               <Typography component="legend">Python</Typography>
               <Rating
