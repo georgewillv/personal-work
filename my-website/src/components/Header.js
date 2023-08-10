@@ -12,8 +12,9 @@ const Header = ({ dark, children }) => {
               src={me}
               width="55"
               alt="ResumeNavBarImage"
-              style={{ borderRadius: "50%" }}
+              style={{ borderRadius: "50%", marginRight: "7px" }}
             />
+            <p> </p>
             {children}
           </a>
           <Link to="/about_me">About Me</Link>
