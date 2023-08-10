@@ -1,6 +1,6 @@
 /* eslint-disable no-lone-blocks */
 import { Box, Grid } from "@mui/material";
-import adam from "../../thumbnail_images/adam.png";
+import adam from "../../thumbnail_images/adam.jpg";
 import joe from "../../thumbnail_images/apple_joe.jpg";
 import dakota from "../../thumbnail_images/dakota1.jpg";
 import jeff from "../../thumbnail_images/jeff.jpg";
@@ -112,90 +112,5 @@ const Mentors = () => {
     </div>
   );
 };
-
-{
-  /* <div class="col">
-            <div>
-              <br></br>
-              <br></br>
-            </div>
-            <div class="card shadow-sm">
-              <Link to="/Skills" style={linkStyle}>
-              <div
-                style={{
-                  backgroundImage: `url(${"test"})`,
-                  backgroundPosition: "center",
-                  backgroundSize: "cover",
-                  height: "225px",
-                  width: "100%",
-                }}
-              >
-                <text
-                  style={{
-                    position: "relative",
-                    bottom: "50px",
-                    fontSize: "28px",
-                  }}
-                >
-                  Joe Saperstein
-                </text>
-              </div>
-              </Link>
-
-              <div class="card-body">
-                <p class="card-text">
-                  Joe is a front end developer God and is a very good at coaxing
-                  the correct way to do things out of me. I know most of my
-                  React knowledge thanks to his support.
-                </p>
-                <div class="d-flex justify-content-between align-items-center"></div>
-              </div>
-            </div>
-          </div> */
-}
-{
-  /* <div class="col">
-            <div>
-              <br></br>
-              <br></br>
-            </div>
-            <div class="card shadow-sm">
-              <Link to="/Mentors" style={linkStyle}>
-              <div
-                style={{
-                  backgroundImage: `url(${"test"})`,
-                  backgroundPosition: "center",
-                  backgroundSize: "cover",
-                  height: "225px",
-                  width: "100%",
-                }}
-              >
-                <text
-                  style={{
-                    position: "relative",
-                    bottom: "50px",
-                    fontSize: "28px",
-                  }}
-                >
-                  Adam Blacke
-                </text>
-              </div>
-              </Link>
-
-              <div class="card-body">
-                <p class="card-text">
-                  Astounding people who made an impact in my life
-                </p>
-                <div class="d-flex justify-content-between align-items-center"></div>
-              </div>
-            </div>
-          </div> */
-}
-{
-  /* </div>
-      </div>
-    </div>
-  ); */
-}
 
 export default Mentors;

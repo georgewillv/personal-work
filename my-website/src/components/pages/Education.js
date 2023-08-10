@@ -49,15 +49,15 @@ const Education = () => {
               style={{ maxWidth: "70%", height: "auto", maxHeight: "500px" }}
             ></img>
             <br></br>
-            <Typography>
+            <Typography variant="h6">
               Responsible for disciplinary action and communication delivery of
               90 active members.
             </Typography>
-            <Typography>
+            <Typography variant="h6">
               Worked on incorporating realistic Academic Goal Setting and Time
               Management Skills into the pledging process.
             </Typography>
-            <Typography>
+            <Typography variant="h6">
               Established philanthropic tradition of the “Phi Gamma Delta Casino
               Night” where students, friends, and families can come and play
               casino games at McNamara Alumni Center in support of cancer
